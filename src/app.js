@@ -1,15 +1,6 @@
 const readline = require('readline-sync')
 require('colors')
-let catalogo = [{ titulo: "Cien años de soledad", autor: "Gabriel García Márquez", precio: 25.99, publicacion: 1967 },
-{ titulo: "1984", autor: "George Orwell", precio: 19.50, publicacion: 1949 },
-{ titulo: "El Principito", autor: "Antoine de Saint-Exupéry", precio: 12.95, publicacion: 1943 },
-{ titulo: "Don Quijote de la Mancha", autor: "Miguel de Cervantes", precio: 30.00, publicacion: 1605 },
-{ titulo: "Orgullo y prejuicio", autor: "Jane Austen", precio: 15.80, publicacion: 1813 },
-{ titulo: "Crónica de una muerte anunciada", autor: "Gabriel García Márquez", precio: 18.75, publicacion: 1981 },
-{ titulo: "El señor de los anillos", autor: "J.R.R. Tolkien", precio: 35.25, publicacion: 1954 },
-{ titulo: "Harry Potter y la piedra filosofal", autor: "J.K. Rowling", precio: 22.40, publicacion: 1997 },
-{ titulo: "Rayuela", autor: "Julio Cortázar", precio: 20.60, publicacion: 1963 },
-{ titulo: "La sombra del viento", autor: "Carlos Ruiz Zafón", precio: 24.99, publicacion: 2001 }]
+let catalogo = []
 
 function agregarLibro() {
     let ingresarLibros = 0
